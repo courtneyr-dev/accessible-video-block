@@ -1,0 +1,138 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "courtneyr/accessible-video",
+  "version": "0.1.0",
+  "title": "Accessible Video",
+  "category": "media",
+  "icon": "format-video",
+  "description": "Embed an accessible video or audio file via the Able Player plugin, with an inline transcript.",
+  "keywords": [
+    "video",
+    "audio",
+    "accessible",
+    "transcript",
+    "captions",
+    "able player"
+  ],
+  "textdomain": "accessible-video-block",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ],
+    "anchor": true,
+    "interactivity": false
+  },
+  "attributes": {
+    "sourceMode": {
+      "type": "string",
+      "default": "media"
+    },
+    "mediaId": {
+      "type": "number"
+    },
+    "mediaUrl": {
+      "type": "string"
+    },
+    "mediaMime": {
+      "type": "string"
+    },
+    "mediaTitle": {
+      "type": "string"
+    },
+    "youtubeId": {
+      "type": "string"
+    },
+    "vimeoId": {
+      "type": "string"
+    },
+    "youtubeNoCookie": {
+      "type": "boolean",
+      "default": true
+    },
+    "autoplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "loop": {
+      "type": "boolean",
+      "default": false
+    },
+    "playsinline": {
+      "type": "boolean",
+      "default": true
+    },
+    "hidecontrols": {
+      "type": "boolean",
+      "default": false
+    },
+    "posterId": {
+      "type": "number"
+    },
+    "posterUrl": {
+      "type": "string"
+    },
+    "width": {
+      "type": "string"
+    },
+    "height": {
+      "type": "string"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "speed": {
+      "type": "string",
+      "default": "animals"
+    },
+    "start": {
+      "type": "number"
+    },
+    "volume": {
+      "type": "number",
+      "default": 7
+    },
+    "seekinterval": {
+      "type": "number"
+    },
+    "nowplaying": {
+      "type": "boolean",
+      "default": false
+    },
+    "captions": {
+      "type": "object"
+    },
+    "subtitles": {
+      "type": "array",
+      "default": []
+    },
+    "chapters": {
+      "type": "object"
+    },
+    "descriptions": {
+      "type": "object"
+    },
+    "youtubeDescId": {
+      "type": "string"
+    },
+    "vimeoDescId": {
+      "type": "string"
+    },
+    "youtubeSignSrc": {
+      "type": "string"
+    },
+    "transcriptMode": {
+      "type": "string",
+      "default": "innerblocks"
+    },
+    "transcriptVttSource": {
+      "type": "string"
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "render": "file:../includes/render-shim.php"
+}

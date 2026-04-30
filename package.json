@@ -1,0 +1,19 @@
+{
+    "name": "accessible-video-block",
+    "version": "0.1.0",
+    "private": true,
+    "description": "Gutenberg block for Joe Dolson's Able Player plugin.",
+    "author": "Courtney Robertson",
+    "license": "GPL-2.0-or-later",
+    "scripts": {
+        "build": "wp-scripts build",
+        "start": "wp-scripts start",
+        "lint:js": "wp-scripts lint-js",
+        "format": "wp-scripts format",
+        "packages-update": "wp-scripts packages-update",
+        "makepot": "wp i18n make-pot . languages/accessible-video-block.pot --domain=accessible-video-block --slug=accessible-video-block"
+    },
+    "devDependencies": {
+        "@wordpress/scripts": "^30.0.0"
+    }
+}

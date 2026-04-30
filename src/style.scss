@@ -1,0 +1,29 @@
+.wp-block-courtneyr-accessible-video {
+	margin: 0 0 1.5em;
+
+	&.is-fallback {
+		padding: 0.75em;
+		background: #fafafa;
+		border: 1px solid #ddd;
+	}
+}
+
+.avb-transcript {
+	margin-top: 0.75em;
+	border-left: 3px solid #2c3338;
+	padding: 0.5em 0.75em;
+
+	summary {
+		cursor: pointer;
+		font-weight: 600;
+		list-style: revert;
+	}
+
+	&__body {
+		margin-top: 0.5em;
+
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+}

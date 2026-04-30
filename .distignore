@@ -1,0 +1,16 @@
+/.git
+/.github
+/.gitignore
+/.distignore
+/.phpunit.cache
+/node_modules
+/src
+/tests
+/docs
+/composer.lock
+/package-lock.json
+/phpunit.xml.dist
+/README.md
+*.log
+*.bak
+.DS_Store
