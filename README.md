@@ -1,6 +1,6 @@
 # Accessible Video Block
 
-Gutenberg block that renders Joe Dolson's [Able Player](https://wordpress.org/plugins/ableplayer/) plugin from a structured editor UI, with a JS-free inline transcript wrapper.
+Gutenberg block that renders [Able Player](https://wordpress.org/plugins/ableplayer/) plugin from a structured editor UI, with a JS-free inline transcript wrapper.
 
 **Able Player is a hard dependency.** This plugin is a block-authoring layer only — it does not bundle Able Player, register shortcodes, or manage runtime assets.
 
